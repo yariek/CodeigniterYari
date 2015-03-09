@@ -37,7 +37,7 @@ class Itch extends CI_Controller {
 		$this->load->view('formulario');
 	}
 
-	public function recibirdatos() {
+	public function recibirDatos() {
 		$data = array(
 			'ncontrol' => $this->input->post('ncontrol'),
 			'nombre' => $this->input->post('nombre'),

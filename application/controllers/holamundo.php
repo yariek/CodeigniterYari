@@ -5,13 +5,13 @@
  	function __construct(){
  		parent::__construct();
 
- 		$this -> load -> helpers('mihelper');
+ 		$this->load->helpers('mihelper');
  	
 
-		$this -> load -> helpers('form');
+		$this->load->helpers('form');
 		/** Cargo el formulario **/
 
-		$this -> load -> model ('itch_model');
+		$this->load->model ('itch_model');
 		/** Cargo el modelo **/
 
 }

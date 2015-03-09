@@ -5,24 +5,23 @@
  	function __construct(){
  		parent::__construct();
 
- 		$this -> load -> helpers('mihelper');
+ 		$this->load->helpers('mihelper');
  	
 
-		$this -> load -> helpers('form');
+		$this->load->helpers('form');
 		/** Cargo el formulario **/
 
-		$this -> load -> model ('itch_model');
+		$this->load->model ('itch_model');
 		/** Cargo el modelo **/
-
-}
-
-  public function index()
+	}
+	 public function index()
 	{
 		$this->load->view('Holamundo');
 	}
-	
-     
-public function acerca_de()
-{
-  $this->load->view('home/acerca_de');
+	public function acerca_de()
+	{
+		$this->load->view('home/acerca_de');
+	}
+/** Falto cerrar**/	
 }
+?>
